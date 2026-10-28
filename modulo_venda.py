@@ -1,4 +1,5 @@
-python
+## Arquivo de módulo com as funções de vendas ###
+# python
 import csv
 import random
 

@@ -39,7 +39,8 @@ def main():
     print("\nTop 5 clientes por gasto:")
     for cliente, info in top_clientes:
         print(
-            f" - {cliente}: R$ {info['total_gasto']:,.2f} "
+            f" - {cliente}: R$ 
+            {info['total_gasto']:,.2f} "
             f"({info['segmento']})"
         )
 
@@ -50,3 +51,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+main.py 
