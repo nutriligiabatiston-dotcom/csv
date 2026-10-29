@@ -1,7 +1,10 @@
 # ### Arquivo principal do sofware ###
 import os
 import modulo_vendas as mv
-
+#Gerar o Dataset CSV
+#vendas.gerar_dataset_sintetico()
+# Faz a leitura do CSV e cria o nosso DataFrame Pandas
+df = vendas.carregar_csv ("vendas.csv")
 
 def main():
     print("=" * 60)
